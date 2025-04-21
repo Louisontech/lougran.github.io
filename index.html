@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lougran - Instalações Elétricas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Lougran - Instalações Elétricas</div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" data-lang="pt">Início</a>
+                    <a href="#home" data-lang="en" style="display: none;">Home</a>
+                </li>
+                <li>
+                    <a href="#services" data-lang="pt">Serviços</a>
+                    <a href="#services" data-lang="en" style="display: none;">Services</a>
+                </li>
+                <li>
+                    <a href="#about" data-lang="pt">Sobre</a>
+                    <a href="#about" data-lang="en" style="display: none;">About</a>
+                </li>
+                <li>
+                    <a href="#contact" data-lang="pt">Contato</a>
+                    <a href="#contact" data-lang="en" style="display: none;">Contact</a>
+                </li>
+                <li class="language-switcher">
+                    <button class="lang-btn active" data-lang="pt">PT</button>
+                    <button class="lang-btn" data-lang="en">ENG</button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 data-lang="pt">Serviços Elétricos Profissionais</h1>
+            <h1 data-lang="en" style="display: none;">Professional Electrical Services</h1>
+            <p data-lang="pt">Seu parceiro confiável para todas as necessidades elétricas</p>
+            <p data-lang="en" style="display: none;">Your trusted partner for all electrical needs</p>
+            <a href="#contact" class="cta-button" data-lang="pt">Solicite um Orçamento</a>
+            <a href="#contact" class="cta-button" data-lang="en" style="display: none;">Get a Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 data-lang="pt">Nossos Serviços</h2>
+            <h2 data-lang="en" style="display: none;">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3 data-lang="pt">Instalação Elétrica</h3>
+                    <h3 data-lang="en" style="display: none;">Electrical Installation</h3>
+                    <p data-lang="pt">Instalação profissional de sistemas elétricos para residências e empresas.</p>
+                    <p data-lang="en" style="display: none;">Professional installation of electrical systems for homes and businesses.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3 data-lang="pt">Manutenção & Reparo</h3>
+                    <h3 data-lang="en" style="display: none;">Maintenance & Repair</h3>
+                    <p data-lang="pt">Manutenção regular e serviços de reparo de emergência para manter seus sistemas funcionando perfeitamente.</p>
+                    <p data-lang="en" style="display: none;">Regular maintenance and emergency repair services to keep your systems running smoothly.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-solar-panel"></i>
+                    <h3 data-lang="pt">Soluções Solares</h3>
+                    <h3 data-lang="en" style="display: none;">Solar Solutions</h3>
+                    <p data-lang="pt">Instalação e consultoria de energia solar ecológica.</p>
+                    <p data-lang="en" style="display: none;">Eco-friendly solar power installation and consultation services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-lang="pt">Sobre Nós</h2>
+            <h2 data-lang="en" style="display: none;">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-lang="pt">Somos uma equipe de eletricistas certificados com mais de 15 anos de experiência no setor. Nosso compromisso com a qualidade e satisfação do cliente nos diferencia.</p>
+                    <p data-lang="en" style="display: none;">We are a team of certified electricians with over 15 years of experience in the industry. Our commitment to quality and customer satisfaction sets us apart.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> <span data-lang="pt">Licenciados e Segurados</span><span data-lang="en" style="display: none;">Licensed and Insured</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang="pt">Serviço de Emergência 24/7</span><span data-lang="en" style="display: none;">24/7 Emergency Service</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang="pt">Orçamentos Gratuitos</span><span data-lang="en" style="display: none;">Free Estimates</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang="pt">Garantia de 100% de Satisfação</span><span data-lang="en" style="display: none;">100% Satisfaction Guarantee</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-lang="pt">Contato</h2>
+            <h2 data-lang="en" style="display: none;">Contact Us</h2>
+            <div class="contact-content">
+                <form id="contactForm" class="contact-form">
+                    <input type="text" 
+                           name="from_name" 
+                           required
+                           data-placeholder-pt="Seu Nome"
+                           data-placeholder-en="Your Name">
+                    
+                    <input type="email" 
+                           name="from_email" 
+                           required
+                           data-placeholder-pt="Seu Email"
+                           data-placeholder-en="Your Email">
+                    
+                    <input type="tel" 
+                           name="phone"
+                           data-placeholder-pt="Seu Telefone"
+                           data-placeholder-en="Your Phone">
+                    
+                    <textarea name="message" 
+                             required
+                             data-placeholder-pt="Sua Mensagem"
+                             data-placeholder-en="Your Message"></textarea>
+                    
+                    <button type="submit" class="submit-button">
+                        <span data-lang="pt">Enviar Mensagem</span>
+                        <span data-lang="en" style="display: none;">Send Message</span>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Rua Elétrica, 123, Cidade, Estado</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(11) 1234-5678</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contato@lougran.com.br</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lougran - Instalações Elétricas. <span data-lang="pt">Todos os direitos reservados.</span><span data-lang="en" style="display: none;">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS
+        emailjs.init("rHME3TYFUeVkO4kWE");
+
+        // Function to update placeholders based on language
+        function updatePlaceholders(lang) {
+            document.querySelectorAll('input, textarea').forEach(element => {
+                const placeholderKey = `data-placeholder-${lang}`;
+                if (element.hasAttribute(placeholderKey)) {
+                    element.placeholder = element.getAttribute(placeholderKey);
+                }
+            });
+        }
+
+        // Update placeholders on language switch
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const lang = btn.getAttribute('data-lang');
+                updatePlaceholders(lang);
+            });
+        });
+
+        // Set initial placeholders
+        updatePlaceholders('pt');
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const params = {
+                from_name: this.querySelector('input[name="from_name"]').value,
+                from_email: this.querySelector('input[name="from_email"]').value,
+                phone: this.querySelector('input[name="phone"]').value,
+                message: this.querySelector('textarea[name="message"]').value
+            };
+
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const isPortuguese = document.documentElement.lang === 'pt';
+            
+            submitBtn.disabled = true;
+            const spans = submitBtn.querySelectorAll('span');
+            spans.forEach(span => span.style.display = 'none');
+            submitBtn.textContent = isPortuguese ? 'Enviando...' : 'Sending...';
+
+            emailjs.send('service_ezer0t6', 'template_rywzy7x', params)
+                .then(() => {
+                    alert(isPortuguese ? 'Mensagem enviada com sucesso!' : 'Message sent successfully!');
+                    this.reset();
+                    updatePlaceholders(isPortuguese ? 'pt' : 'en');
+                })
+                .catch((err) => {
+                    console.log('FAILED...', err);
+                    alert('Error: ' + JSON.stringify(err));
+                })
+                .finally(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = '';
+                    spans.forEach(span => {
+                        if (span.getAttribute('data-lang') === (isPortuguese ? 'pt' : 'en')) {
+                            span.style.display = '';
+                        }
+                    });
+                });
+        });
+    </script>
+</body>
+</html> 
